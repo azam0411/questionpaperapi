@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const QuestionSchema = new mongoose.Schema({
   originalQuestion: { type: String, required: true },
-  generatedQuestions: [String],
+  generatedQuestions: { type: String },
   options: [String],
   correctAnswer: { type: String, required: true },
   metadata: {
