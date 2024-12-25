@@ -17,6 +17,7 @@ This project allows users to upload a PDF-based question paper, extract the ques
  - setup your .env profile in the root directory, sample env provided in the root directory.
  - Add this file in your root directory
  -  For starting the backend server use node app.js
+ - Make your own file and add monogoDB server and Openaikey.
 ```
 
 - If setting up on local then set use base url as `localhost:5000`.
